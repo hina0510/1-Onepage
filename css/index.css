@@ -10,10 +10,10 @@ body{
   bottom: 80px;
   font-size: 24px;
   padding: 2px 5px 2px;
-  border: 3px solid #faa5b4;
-  color: #fc81b4;
+  border: 3px solid #000;
+  color: #000;
   border-radius: 30px;
-  background-color: #ffffffc7;
+  background-color: #ffffff;
   z-index: 1;
 }
 .goto-bottom{
@@ -22,10 +22,10 @@ body{
   bottom: 20px;
   font-size: 24px;
   padding: 2px 5px 2px;
-  border: 3px solid #faa5b4;
-  color: #fc81b4;
+  border: 3px solid #000;
+  color: #000;
   border-radius: 30px;
-  background-color: #ffffffc7;
+  background-color: #ffffff;
   z-index: 1;
 }
 .goto-bottom i{
@@ -247,7 +247,7 @@ h2{
   width: 105%;
   height: 105%;
   border-radius: 40% 60% 55% 45% / 62% 40% 63% 40% ;
-  border: 1px solid pink;
+  border: 1px solid #eccab3;
 }
 
 #s1 .section-inner .items .item span:nth-of-type(1){
@@ -302,7 +302,7 @@ h2{
 }
 #s1 .section-inner .items .item:hover span:not(:last-of-type){
   scale: 1.1;
-  border: 2px solid #faa5b4;
+  border: 2px solid #eccab3;
 }
 #s1 .section-inner .items .item:active .title{opacity: 1;}
 
@@ -326,7 +326,7 @@ h2{
   align-items: center;
   border-radius: 10px;
   background-color: #fff;
-  border: 3px solid lightpink;
+  border: 3px solid #929292;
   margin: 15px 0;
   z-index: 1;
   overflow: hidden;
@@ -499,7 +499,7 @@ h2{
 
 /* Section 4 */
 #s4{
-  background: rgb(255, 240, 213);
+  background: #fff0d5;
   clip-path: polygon(10% 0, 90% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);
 }
 #s4 .section-inner .items{
